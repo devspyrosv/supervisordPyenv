@@ -1,6 +1,6 @@
 # SupervisordPyenv
 
-Run python apps with custom python version using supervisord.
+##### Run a python application, with custom python version, using supervisord.
 
 Two possible means of execution are presented.
 
@@ -15,9 +15,14 @@ pyenv virtualenv 3.7.2 daemon_372
 ```
 
 ## Get supervisord confs ready
-In 
- * direct_python_supervisord.conf
+
+In the files:
+
+```bash
+ * direct_python_supervisord.conf 
  * intermediate_script_supervisord.conf
+``` 
+ 
  
 Replace:
 ```bash 
@@ -37,4 +42,3 @@ Replace:
  * Check the log files for successful execution. 
 
 
-[MIT](https://choosealicense.com/licenses/mit/)
