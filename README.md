@@ -1,6 +1,6 @@
 # SupervisordPyenv
 
-##### Run a python application, with custom python version, using supervisord.
+##### Configs and example to run a python application, with a custom python version, using supervisord.
 
 Two possible means of execution are presented.
 
